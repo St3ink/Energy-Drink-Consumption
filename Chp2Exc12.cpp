@@ -15,7 +15,10 @@ using namespace std;
 
 int main() { 
   
-  int customers = 16500;
+  int customers;
+
+  cout << "Enter the number of customers surveyed: ";
+  cin >> customers; 
   //15% of those surveyed drink one or more energy drinks per week 
   int energyDrinks = customers * 0.15;
   //58% of those purchasing denrgy drinks prefer citrus flavored
